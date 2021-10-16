@@ -2,7 +2,7 @@ package errutils
 
 import "log"
 
-func ParseErr(e error, context string) {
+func ParseErr(context string, e error) {
 
 	if e != nil {
 		log.Fatalf("%s: %v\n", context, e)
