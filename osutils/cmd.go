@@ -1,9 +1,10 @@
 package osutils
 
 import (
-	"asiem-core-utils/errutils"
 	"os"
 	"os/exec"
+
+	"github.com/philcantcode/asiem-core-utils/errutils"
 )
 
 // Run BLAH
